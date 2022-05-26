@@ -1,0 +1,209 @@
+html{
+  background-color: #d0a690;
+}
+
+body {
+  background-color: #eca883;
+    color: #a97037;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 1000px;
+  margin: auto;
+  border: solid;
+}
+
+nav{
+  background-color: #947361;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav a{
+  color: #d5a372;
+  margin-right: 50px;
+}
+
+nav a:hover{
+  color: #825930;
+  background-color: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Principio{
+  font-size: 25px;
+  text-align: center;
+  border: 5px solid #836149;
+  outline: 4px solid #b59178;
+  font-family: "Sofia", sans-serif;
+}
+
+.Principio h1{
+  margin-bottom: 0px;
+  padding: 0px;
+  color: #6d4640;
+  cursor: default;
+}
+
+.Principio h2{
+  margin-top: 0px;
+  padding: 0px;
+  color: #8a5d56;
+  cursor: default;
+}
+
+hr{
+  background-color: #785745;
+  color: #785745;
+  border: solid;
+  width: 100%;
+}
+
+img{
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 390px;
+  max-width: 390px;
+  border: inset 10px #a97037;
+  cursor: pointer;
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.first{
+  font-size: 15px;
+  text-align: center;
+  color: #995d3d;
+  font-family:'Oleo Script Swash Caps', cursive;
+  font-family: 'Zen Loop', cursive;
+  font-size: 22px;
+  cursor: default;
+}
+
+.second{
+  font-size: 15px;
+  color: #6f492f;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 20px;
+  cursor: default;
+}
+
+.third{
+  font-size: 15px;
+  color: #9d6743;
+  font-family: 'Zilla Slab', serif;
+  font-size: 15px;
+  cursor: default;
+}
+
+.fourth{
+  color: #8c491d;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 20px;
+  cursor: default;
+}
+
+.fifth{
+  color: #80441e;
+  font-family: 'Satisfy', cursive;
+  font-size: 17px;
+  cursor: default;
+}
+
+.sixth{
+  color: #9a603c;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  cursor: default;
+}
+
+.seventh{
+  color: #9a603c;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  cursor: default;
+  margin: 20px 80px;
+}
+
+.Helpthepoor{
+  font-size: 15px;
+  color: #9d6743;
+  font-family: 'Zilla Slab', serif;
+  font-size: 15px;
+  cursor: default;
+}
+
+.Helpthepoor a:hover{
+  color: #f9d4a9;
+}
+
+button{
+  background-color: #9f735b;
+  color: #935a34;
+  border: 2px solid #8e5d2e;
+  font-family: 'Indie Flower', cursive;
+}
+
+button a{
+  color: #c9ab97;
+}
+
+button a:hover{
+  background-color: #a36b43;
+  color: #d7ac75;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+[type=submit] {
+  width: 100%;
+  background-color: #c5571b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+[type=submit]:hover{
+  background-color: #7e5930;
+}
+
+Form {
+  border-radius: 5px;
+  background-color: #e1a37a;
+  color: #cb6a2a;
+  padding: 20px;
+  margin: 60px 60px;
+}
+
+.FormWord{
+  margin: 70px 80px;
+  color: #936539;
+  font-size: 20px;
+}
+
+em{
+  color: #8c491d;
+}
+
+iframe{
+  border: inset 10px #dda96e;
+}
